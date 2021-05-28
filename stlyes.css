@@ -55,9 +55,8 @@ p{
       background: white;
       color:black;
       border:2px solid blue;
-      padding: 3%;
-      margin:50px 0px 0px 50px;
-      height:90%;
+      padding: 2%;
+      margin: 40px 40px 40px 40px;
   }
   .del{
       display: flex;

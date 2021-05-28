@@ -55,3 +55,8 @@ toaddbtn.addEventListener("click", function () {
             });
     }
 });
+let search=document.getElementById("searchText");
+search.addEventListener("input",function(){
+    let inputVal=search.value;
+    
+})
