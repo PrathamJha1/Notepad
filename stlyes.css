@@ -1,0 +1,76 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+h1{
+    color:white;
+}
+p{
+    font-size:24px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.title{
+    width:25%;
+    border:2px solid black;
+    padding: 1%;
+    background-color: #E7F2F8;
+    color:black;
+}
+.but {
+    background: #78ffc5;
+    background-image: -webkit-linear-gradient(top, #78ffc5, #5e8ca8);
+    background-image: -moz-linear-gradient(top, #78ffc5, #5e8ca8);
+    background-image: -ms-linear-gradient(top, #78ffc5, #5e8ca8);
+    background-image: -o-linear-gradient(top, #78ffc5, #5e8ca8);
+    background-image: linear-gradient(to bottom, #78ffc5, #5e8ca8);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family:cursive
+    ;
+    color:white;
+    font-size: 22px;
+    padding: 10px 10px 10px 10px;
+    border: solid #c7d8e3 2px;
+    text-decoration: none;
+  }
+  
+  .but:hover {
+    background: #76faf6;
+    color:black;
+  }
+  .newnote-style{
+      background: white;
+      color:black;
+      border:2px solid blue;
+      padding: 3%;
+      margin:50px 0px 0px 50px;
+      height:90%;
+  }
+  .del{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color:black;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+  }
+  #empty{
+      width: 100%;
+      text-align: center;
+    }
+  .emptyness{
+      display: none;
+  }
