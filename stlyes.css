@@ -56,7 +56,10 @@ p{
       color:black;
       border:2px solid blue;
       padding: 2%;
-      margin: 40px 40px 40px 40px;
+  }
+  #notes{
+      display: flex;
+      gap:10px
   }
   .del{
       display: flex;
