@@ -24,6 +24,7 @@ toaddbtn.addEventListener("click", function () {
             delbtn.classList.add("btn-danger");
             newdiv.classList.add("newnote-style");
             newdiv.classList.add("col-lg-5");
+            newdiv.classList.add("notecard");
             notetitle.innerText = addTitle.value;
             notetext.innerText = addText.value;
             h2container.classList.add("del");
@@ -55,8 +56,18 @@ toaddbtn.addEventListener("click", function () {
             });
     }
 });
-let search=document.getElementById("searchText");
-search.addEventListener("input",function(){
-    let inputVal=search.value;
-    
-})
+let search = document.getElementById('searchText');
+search.addEventListener("input", function(){
+
+    let inputVal = search.value.toLowerCase();
+    let noteCards = document.getElementsByClassName('notecard');
+    Array.from(noteCards).forEach(function(element){
+        let cardTxt = element.getElementsByTagName("h2")[0].innerText.toLowerCase();
+        if(cardTxt.includes(inputVal)){
+            element.style.display = "block";
+        }
+        else{
+            element.style.display = "none";
+        }
+    })
+});

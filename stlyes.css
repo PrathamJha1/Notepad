@@ -76,3 +76,6 @@ p{
   .emptyness{
       display: none;
   }
+  .disp{
+      display: block;
+  }
